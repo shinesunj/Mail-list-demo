@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+/* searchWrapper  */
+.wrapper{
+    padding: 10px 15px;
+    width: 400px;
+    border: 1px solid #ccc;
+    margin: 100px auto;
+    border-radius: 6px;
+}
+.wrapper .sWrapper{
+    margin-bottom: 20px;
+}
+.wrapper .sWrapper .sText{
+    width: 220px;
+    height: 25px;
+    padding-left: 10px;
+    outline: none;
+    border-radius: 4px;
+    border: 1px solid #777;
+}
+.wrapper .sWrapper .btn{
+    cursor: pointer;
+    color: #3c8dff;
+    padding: 0px 5px;
+}
+
+.wrapper .sWrapper .btn.active{
+    color: #fff;
+    background: #3cbdff;
+    border-radius: 4px;
+}
+/* friendlist */
+.wrapper .flWrapper{
+
+}
+.wrapper .flWrapper  ul{
+
+}
+
+.wrapper .flWrapper ul li{
+    padding-left: 50px;
+    padding-top: 10px;
+    border-bottom: 1px solid #999;
+    position: relative;
+}
+
+.wrapper .flWrapper ul li img{
+    position: absolute;
+    left: 0;
+    top: 10px;
+    width: 30px;
+    height: 30px;
+    
+}
+
+.wrapper .flWrapper ul li  .name{
+    margin-bottom: 10px;
+}
+.wrapper .flWrapper ul li .des{
+    font-size: 12px;
+    color: #666;
+}
+
